@@ -1,0 +1,29 @@
+{
+  "name": "webperfhandbook",
+  "version": "1.0.0",
+  "description": "Web Performance Handbook - free, regularly updated and comprehensive",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "npx --yes -- single-page-markdown-website '*.md' --open  --watch"
+  },
+  "author": "@SimonHearne",
+  "license": "ISC",
+  "single-page-markdown-website": {
+    "baseUrl": "https://handbook.webperf.tools/",
+    "title": "Web Performance Handbook",
+    "description": "Free, regularly updated and comprehensive refererence for all things web performance",
+    "toc": true,
+    "sections": false,
+    "links": [
+      {
+        "text": "Author's Blog",
+        "url": "https://simonhearne.com"
+      },
+      {
+        "text": "Author's Twitter",
+        "url": "https://twitter.com/simonhearne"
+      }
+    ]
+  }
+}
